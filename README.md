@@ -6,6 +6,4 @@
 
 **GS2E** is a large-scale synthetic event dataset for high-fidelity event vision tasks, captured from real-world sparse multi-view RGB images.
 
-<p align="center">
-  <img src="assets/gs2e_logo.png" width="600">
-</p>
+[![Home Page](https://img.shields.io/badge/Project-<Website>-blue.svg)](https://github.com/PKU-YuanGroup) 

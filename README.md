@@ -12,9 +12,9 @@
 
 <p align="center">
 This repository provides the official implementation of the paper  
-<a href="https://github.com/PKU-YuanGroup/GS2Event-Simulator">
+“<a href="https://github.com/PKU-YuanGroup/GS2Event-Simulator">
 <b>GS2E: Gaussian Splatting is an Effective Data Generator for Event Stream Generation</b>
-</a>,  
+</a>”,  
 which introduces a novel pipeline that leverages 3D Gaussian Splatting to manipulate camera trajectories, render photorealistic image sequences, and simulate dense, high-fidelity event streams for advancing event-based vision research.
 </p>
 

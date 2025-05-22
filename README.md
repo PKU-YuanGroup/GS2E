@@ -13,7 +13,10 @@
   </a>
   <a href="http://intothemild.github.io/GS2E.github.io">
   <img src="https://img.shields.io/badge/Webpage-GS2E-green?logo=google-chrome" alt="Project Webpage">
-</a>
+  </a>
+  <a href="https://huggingface.co/datasets/Falcary/GS2E">
+    <img src="https://img.shields.io/badge/HuggingFace-Dataset-orange?logo=huggingface" alt="Hugging Face Dataset">
+  </a>
   <a href="https://github.com/PKU-YuanGroup/GS2E/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
   </a>

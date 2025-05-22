@@ -1,12 +1,32 @@
-<h1 align="center">
-  <img src="assets/gs2e_logo.png" width="28" style="vertical-align: middle; margin-right: 8px;">
-  GS2E: Gaussian Splatting is an Effective Data Generator for Event Stream Generation
-</h1>
+
+<h2 align="center"> 
+  <a href="https://github.com/PKU-YuanGroup/GS2E"> GS2E: Gaussian Splatting is an Effective Data Generator for Event Stream Generation </a>
+</h2>
+
+<h5 align="center">
+  If you like our project, please give us a star ⭐ on GitHub for the latest update.
+</h5>
 
 <h5 align="center">
 
-[![Home Page](https://img.shields.io/badge/Project-<Website>-blue.svg)](https://github.com/PKU-YuanGroup/GS2Event-Simulator) 
-
+  <a href="https://arxiv.org/abs/2505.15287">
+    <img src="https://img.shields.io/badge/Arxiv-2505.15287-b31b1b.svg?logo=arXiv" alt="arXiv">
+  </a>
+  <a href="http://intothemild.github.io/GS2E.github.io">
+  <img src="https://img.shields.io/badge/Webpage-GS2E-green?logo=google-chrome" alt="Project Webpage">
+</a>
+  <a href="https://github.com/PKU-YuanGroup/GS2E/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
+  </a>
+  <a href="https://github.com/PKU-YuanGroup/GS2E/stargazers">
+    <img src="https://img.shields.io/github/stars/PKU-YuanGroup/GS2E?style=flat&logo=github&logoColor=whitesmoke&label=Stars" alt="GitHub repo stars">
+  </a>
+  <a href="https://github.com/PKU-YuanGroup/GS2E/network">
+    <img src="https://img.shields.io/github/forks/PKU-YuanGroup/GS2E?style=flat&logo=github&logoColor=whitesmoke&label=Forks" alt="GitHub repo forks">
+  </a>
+  <a href="https://github.com/PKU-YuanGroup/GS2E/watchers">
+    <img src="https://img.shields.io/github/watchers/PKU-YuanGroup/GS2E?style=flat&logo=github&logoColor=whitesmoke&label=Watchers" alt="GitHub repo watchers">
+  </a>
 </h5>
 
 

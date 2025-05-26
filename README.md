@@ -11,7 +11,7 @@
   <a href="https://arxiv.org/abs/2505.15287">
     <img src="https://img.shields.io/badge/Arxiv-2505.15287-b31b1b.svg?logo=arXiv" alt="arXiv">
   </a>
-  <a href="http://intothemild.github.io/GS2E.github.io">
+  <a href="http://PKU-YuanGroup.github.io/GS2E.github.io">
   <img src="https://img.shields.io/badge/Webpage-GS2E-green?logo=google-chrome" alt="Project Webpage">
   </a>
   <a href="https://huggingface.co/datasets/Falcary/GS2E">

@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>GS2E Project Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/codemirror.min.css">
+  <link rel="stylesheet" href="css/app.css">
+
+  <!-- Local JS -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/codemirror.min.js"></script>
+  <script src="js/clipboard.min.js"></script>
+  <script src="js/app.js"></script>
+  <style>
+    .tRed    { color: #e74c3c; }   /* 红色 */
+    .tIndigo { color: #3f51b5; }   /* 靛蓝 */
+    .tPurple { color: #9b59b6; }   /* 紫色 */
+    .tBlue   { color: #3498db; }   /* 蓝色 */
+    .big-title {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .huge-title {
+      font-size: 2.2em;
+      line-height: 1.4;
+      font-weight: bold
+    }
+  </style>  
+</head>
+
+<body>
+  <div class="container" id="main">
+    <div class="row">
+      <h2 class="col-md-12 text-center huge-title">
+        <img src="images/logo.png" alt="logo" style="height: 1.5em; vertical-align: middle;">
+        <span class="tRed">G</span><span class="tIndigo">S</span><span class="tPurple">2</span><span class="tBlue">E</span>:
+        Gaussian Splatting is an Effective <br> Data Generator for Event Stream Generation
+        <br>
+      </h2>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <ul class="list-inline">
+          <li>
+            <a href="">
+              Yuchen Li<sup>*</sup>
+            </a>
+            <br>Peking University
+          </li>
+          <li>
+            <a href="">
+              Chaoran Feng<sup>*</sup>
+            </a>
+            <br>Peking University
+          </li>
+          <li>
+            <a href="">
+              Zhenyu Tang
+            </a>
+            <br>Peking University
+          </li>
+          <li>
+            <a href="">
+              Kaiyuan Deng
+            </a>
+            <br>Clemson University
+          </li><br>
+          <li>
+            <a href="">
+              Wangbo Yu
+            </a>
+            <br>Peking University
+          </li>
+          <li>
+            <a href="https://scholar.google.com/citations?user=fn6hJx0AAAAJ&hl=en" target="_blank">
+              Yonghong Tian<sup>†</sup>
+            </a>
+            <br>Peking University
+          </li>
+          <li>
+            <a href="https://yuanli2333.github.io/" target="_blank">
+              Li Yuan<sup>†</sup>
+            </a>
+            <br>Peking University
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <ul class="nav nav-pills nav-justified">
+          <li>
+            <a href="GS2E.pdf">
+              <img src="images/gs2e_paper.png" height="60px">
+              <h4><strong>Paper</strong></h4>
+            </a>
+          </li>
+          <li>
+            <a href="https://huggingface.co/datasets/Falcary/GS2E" target="_blank">
+              <img src="images/hf-logo.png" height="60px">
+              <h4><strong>Hugging Face</strong></h4>
+            </a>
+          </li>
+          <!-- <li>
+            <a href="https://youtu.be/your_video_id">
+              <img src="images/youtube_icon.png" height="60px">
+              <h4><strong>Video</strong></h4>
+            </a>
+          </li> -->
+          <li>
+            <a href="dataset_part1.zip">
+              <img src="images/database_icon.png" height="60px">
+              <h4><strong>Early Access Subset</strong></h4>
+            </a>
+          </li>
+          <li>
+            <a href="dataset_part2.zip">
+              <img src="images/database_icon.png" height="60px">
+              <h4><strong>Full Dataset<br>Coming Soon</strong></h4>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/PKU-YuanGroup/GS2E" target="_blank">
+              <img src="images/github.png" height="60px">
+              <h4><strong>Code</strong></h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    
+
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <video width="100%" controls autoplay loop muted>
+          <source src="images/demo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p class="text-center">Rendered results from our dataset/simulator.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h3>Abstract</h3>
+        <p class="text-justify">
+          We present
+          <span style="font-variant: small-caps;">
+            3D <u><b>G</b></u>aussian <u><b>S</b></u>platting to <u><b>E</b></u>vent Generation
+          </span>
+          <span style="font-variant: small-caps;">(GS2E)</span>,
+          a large-scale event synthetic dataset designed for high-fidelity event vision tasks from real-world sparse multi-view RGB images.
+          Existing event datasets either synthesize from dense RGB videos, which lack viewpoint diversity and geometric consistency,
+          or rely on expensive hardware setups that are difficult to scale.
+          <span style="font-variant: small-caps;">GS2E</span> addresses these limitations by leveraging 3D Gaussian Splatting to reconstruct photorealistic static scenes and
+          by introducing a physically-informed simulation pipeline that integrates adaptive trajectory interpolation and
+          physically-consistent event contrast threshold modeling.
+          This approach produces temporally dense and geometrically consistent event streams across diverse motion and lighting conditions,
+          while preserving strong alignment with underlying scene structures.
+          Experimental results on event-based 3D reconstruction and deblurring tasks demonstrate the improved generalization and practical value of
+          <span style="font-variant: small-caps;">GS2E</span> as a benchmark for event vision.
+        </p>
+      </div>
+    </div>
+    
+
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h3>Citation</h3>
+        <pre>
+TBD
+        </pre>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h3>Acknowledgements</h3>
+        <p class="text-justify">
+          Credit template source: <a href="http://mgharbi.com/">Michaël Gharbi</a>. Thanks to your team, institution, and any collaborators.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
